@@ -26,6 +26,7 @@
 
        <p>
            Faites un souhait que vous voudriez voir exaucé :
+<br />
 
            <input type="radio" name="souhait" value="riche" id="riche" /> <label for="riche">Etre riche</label>
 <br />
