@@ -12,10 +12,10 @@
 
        <label for="nom">Quel est votre nom ?</label>
        <input type="text" name="nom" id="nom" />
-
+<br />
        <label for="prenom">Quel est votre prénom ?</label>
        <input type="text" name="prenom" id="prenom" />
-
+<br />
        <label for="email">Quel est votre e-mail ?</label>
        <input type="email" name="email" id="email" />
 
@@ -28,8 +28,11 @@
            Faites un souhait que vous voudriez voir exaucé :
 
            <input type="radio" name="souhait" value="riche" id="riche" /> <label for="riche">Etre riche</label>
+<br />
            <input type="radio" name="souhait" value="celebre" id="celebre" /> <label for="celebre">Etre célèbre</label>
+<br />
            <input type="radio" name="souhait" value="intelligent" id="intelligent" /> <label for="intelligent">Etre <strong>encore</strong> plus intelligent</label>
+<br />
            <input type="radio" name="souhait" value="autre" id="autre" /> <label for="autre">Autre...</label>
        </p>
 
