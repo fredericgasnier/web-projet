@@ -10,10 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/hello")
-public class HelloServlet extends HttpServlet {
+public class ListeServler extends HttpServlet {
         private static final long serialVersionUID = 1L;
 
-        public HelloServlet() {
+        public ListeServler() {
                 super();
         }
 
@@ -30,3 +30,4 @@ public class HelloServlet extends HttpServlet {
         fredo(request, response);
         }
 }
+
