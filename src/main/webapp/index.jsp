@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Choix de votre prenom</title>
+<title>choix de votre prenom</title>
 </head>
 <body>
 	<h1>Hello test JSP and Servlet!</h1>
