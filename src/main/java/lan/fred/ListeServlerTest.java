@@ -19,9 +19,9 @@ public class ListeServlerTest extends HttpServlet {
 
         protected void fredo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
                 String yourName = (String) request.getParameter("nom");
-                out.println("<h1>Hello " + yourName + "</h1>");
-                out.println("<p> Salut " + yourName + ", ça va ?</p>");
-                out.println("<p>Comment vas tu ?</p>");
+                System.out.println("<h1>Hello " + yourName + "</h1>");
+                System.out.println("<p> Salut " + yourName + ", ça va ?</p>");
+                System.out.println("<p>Comment vas tu ?</p>");
         }
 
         protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
