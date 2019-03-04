@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>Hello fred</h1>
-<form method="get" action="hello">
+<form method="post" action="hello">
 
    <fieldset>
        <legend>Our coordonnées</legend> <!-- Titre du fieldset -->
