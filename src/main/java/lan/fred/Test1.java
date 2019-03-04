@@ -22,7 +22,7 @@ public class Test1 extends HttpServlet {
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("heure", "jour");
+        request.setAttribute("heure", "our");
         this.getServletContext().getRequestDispatcher("/bonjour1.jsp").forward(request, response);
     }
 
