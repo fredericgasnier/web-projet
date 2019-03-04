@@ -19,15 +19,11 @@ public class ListeServler extends HttpServlet {
 
         protected void fredo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
                 String yourName = (String) request.getParameter("nom");
-                if (yourName.equals("fred")) {
-                //PrintWriter writer = response.getWriter();
-                out.println("<h1>Hello " + yourName + "</h1>");
-                out.println("<p> Salut " + yourName + ", ça va ?</p>");
-                out.println("<p>Comment vas tu ?</p>");
-                //writer.close();
-                } else {
-                out.println("<p>Comment vas tu " + yourName + "?</p>");
-                }
+                PrintWriter writer = response.getWriter();
+                writer.println("<h1>Hello " + yourName + "</h1>");
+                writer.println("<p> Salut " + yourName + ", ça va ?</p>");
+                writer.println("<p>Comment vas tu ?</p>");
+                writer.close();
         }
 
         protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
