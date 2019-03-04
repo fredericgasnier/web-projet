@@ -5,6 +5,6 @@
         <title>Test</title>
     </head>
     <body>
-        <p>Bonjour à vous !</p>
+        <p>bonjour à vous !</p>
     </body>
 </html>
