@@ -17,7 +17,7 @@ public class ListeServlerTest extends HttpServlet {
                 super();
         }
 
-        protected void fredo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
                 String yourName = (String) request.getParameter("nom");
                 System.out.println("<h1>Hello " + yourName + "</h1>");
                 System.out.println("<p> Salut " + yourName + ", ça va ?</p>");
@@ -25,7 +25,7 @@ public class ListeServlerTest extends HttpServlet {
         }
 
         protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        fredo(request, response);
+        doGet(request, response);
         }
 }
 
