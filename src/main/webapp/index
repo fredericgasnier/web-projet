@@ -8,7 +8,7 @@
 <form method="post" action="hello">
 
    <fieldset>
-       <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+       <legend>Our coordonnées</legend> <!-- Titre du fieldset -->
 
        <label for="nom">Quel est votre nom ?</label>
        <input type="text" name="nom" id="nom" />
