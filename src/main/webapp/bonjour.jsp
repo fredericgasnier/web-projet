@@ -7,6 +7,7 @@
 </head>
 <body>
 <p>Bonjour à vous !</p>
+<!--
 <p>
     <%
         String heure = (String) request.getAttribute("heure");
@@ -18,6 +19,7 @@
         }
     %>
 </p>
+-->
 <p>
     <%
         for (int i = 0 ; i < 20 ; i++) {
