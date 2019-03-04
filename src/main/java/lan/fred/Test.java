@@ -22,7 +22,7 @@ public class Test extends HttpServlet {
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.getServletContext().getRequestDispatcher("/WEB-INF/bonjour.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/bonjour.jsp").forward(request, response);
     }
 
 
