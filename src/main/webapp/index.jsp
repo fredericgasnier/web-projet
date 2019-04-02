@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Entrez votre prenom</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello test JSP and Servlet!</h1>
-	<form action="liste" method="post">
+	<h1>Hello JSP and Servlet!</h1>
+	<form action="hello" method="post">
 		Enter your name: <input type="text" name="yourName" size="20">
-		<input type="submit" value="Call Servle" />
+		<input type="submit" value="Call Servlet" />
 	</form>
 </body>

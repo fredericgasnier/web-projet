@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/liste")
+@WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -17,18 +17,17 @@ public class HelloServlet extends HttpServlet {
 		super();
 	}
 
-	protected void fredo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String yourName = request.getParameter("yourName");
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello " + yourName + "</h1>");
-		writer.println("<p> Salut " + yourName + ", Ã§a va ?</p>");
-		writer.println("<p>Comment vas tu ?</p>");
+		writer.println("<p> Salut " + yourName + ", ça va ?</p>");
 		String fred = getServletInfo();
 		writer.println("<p>" + fred + "</p>");
 		writer.close();
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	fredo(request, response);
+	doGet(request, response);
 	}
 }
